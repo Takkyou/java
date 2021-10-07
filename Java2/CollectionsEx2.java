@@ -1,5 +1,7 @@
 package Java2;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 
 public class CollectionsEx2 {
@@ -21,6 +23,13 @@ public class CollectionsEx2 {
 		
 		boolean d = Collections.disjoint(c1,c2);
 		System.out.println("disjoint():" + d);
+		
+		Collections.replaceAll(c2,  "Starwars", "E.T");
+		System.out.print(c1);
+		System.out.print(c2);
+		
+		d= Collections.disjoint(c1, c2);
+		System.out.println(d);
 	}
 
 }
