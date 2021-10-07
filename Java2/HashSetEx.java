@@ -21,7 +21,7 @@ public class HashSetEx {
 		
 		it = v.iterator();
 		int sum =0;
-		while(it.hasNext() ) {
+		while(it.hasNext()) {
 			int n= it.next();
 			sum +=n;
 			System.out.println(sum);
