@@ -1,6 +1,7 @@
 package Java2;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 class Student{
 	int id;
@@ -29,8 +30,9 @@ public class HashMapStudentEx {
 		if(student == null)
 			System.out.println(name + "은 없는 사람입니다.");
 		else
-			System.out.println("id" + student.id +"전화" +  )
+			System.out.println("id" + student.id +"전화" + student.tel);
 	}
+	scanner.close();
 	}
 
 }
