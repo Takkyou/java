@@ -18,4 +18,10 @@ public class CompleteCalc extends Calulator {
 		System.out.println("Cal 인터페이스를 구현하였습니다");
 	}
 
+	@Override
+	public void description() {
+		// TODO Auto-generated method stub
+		super.description();
+	}
+
 }

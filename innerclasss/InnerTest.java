@@ -53,8 +53,7 @@ public class InnerTest {
 		System.out.println();
 		System.out.println("정적 내부클래스의 정적 메서드 호출");
 		OutClass.InstaticClass.sTest();
-		sInClass.sTest();
-	
+		
 		OutClass outClass = new OutClass();
 		System.out.println("외부 클래스 이용하여 내부 클래스 기능 호출");
 		outClass.usingClass();

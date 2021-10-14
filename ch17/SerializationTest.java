@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 class Person implements Serializable{
 	String name;
-	transient String job;
+	transient String job; 
 	
 	public Person() {}
 	public Person(String name, String job) {
